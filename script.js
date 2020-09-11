@@ -6,7 +6,7 @@ const overlayClose = overlay.querySelector('.close');
 function generateHTML([h, v]) {
   return `
     <div class="item h${h} v${v}">
-      <img src="https://picsum.photos/500/500">
+      <img src="/assets/images/${randomNumber(12)}.jpg">
       <div class="item__overlay">
         <button>View >></button>
       </div>
