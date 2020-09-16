@@ -5,12 +5,14 @@
   body {
     padding: 50px;
     font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: #ddd;
+    background: #333;
+    color: white;
   }
   
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0 0 5px 0;
+    text-transform: uppercase;
   }
   
   h1 {
@@ -29,6 +31,7 @@
     text-transform: lowercase;
   }
   
+  /* GALLERY */
   .close {
     background: none;
     font-family: 'Courier New';
@@ -136,3 +139,4 @@
     width: 100%;
   }
   
+  /* END GALLERY STYLES */
