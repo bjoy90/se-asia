@@ -1,3 +1,11 @@
+:root {
+  --sienna: #de7c5a;
+  --dark_sienna: #280000;
+  --rosewood: #570000;
+  --upsdell_red: #b10f2e;
+  --offwhite: #fdffff;
+}
+
 * {
     box-sizing: border-box;
   }
@@ -5,8 +13,8 @@
   body {
     padding: 50px;
     font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: #333;
-    color: white;
+    background: var(--dark_sienna);
+    color: var(--offwhite);
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -21,6 +29,10 @@
   }
   p {
     margin: 0 0 20px 0;
+  }
+
+  a:link {
+    color: var(--upsdell_red);
   }
 
   .subtitle {
