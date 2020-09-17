@@ -195,3 +195,32 @@ a:active {
 }
   
   /* END GALLERY STYLES */
+
+/* CONTACT styles */
+
+input {
+  margin-left: 10px;
+  padding: 10px;
+  border: none;
+}
+
+textarea {
+  border: none;
+}
+
+fieldset {
+  max-width: 400px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  color: var(--offwhite);
+  background-color: var(--sienna);
+  font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+  background-color: var(--dark_sienna);
+  border: 1px solid var(--offwhite);
+}
